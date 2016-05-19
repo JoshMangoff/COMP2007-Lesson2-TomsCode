@@ -11,7 +11,12 @@ namespace COMP2007_S2016_Lesson2_Part2C
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            /**
+             * This method add class of "active" to selected navbar item
+             * 
+             * @method addActiveClass
+             * @return {string}
+             */
         }
     }
 }

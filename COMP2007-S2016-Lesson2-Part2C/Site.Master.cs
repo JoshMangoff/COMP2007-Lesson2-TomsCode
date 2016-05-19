@@ -11,7 +11,25 @@ namespace COMP2007_S2016_Lesson2_Part2C
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            switch(Page.Title)
+            {
+                case "Home":
+                    home.Attributes.Add("class", "active");
+                    break;
+                case "Products":
+                    products.Attributes.Add("class", "active");
+                    break;
+                case "Services":
+                    services.Attributes.Add("class", "active");
+                    break;
+                case "About":
+                    about.Attributes.Add("class", "active");
+                    break;
+                case "Contact":
+                    contact.Attributes.Add("class", "active");
+                    break;
 
+            }
         }
     }
 }
